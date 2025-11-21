@@ -1,0 +1,62 @@
+:root {
+  --color-bg: #570909;
+
+  --color-head-bg: #f90707;
+
+  --color-logotype-bg: #000;
+  --color-text-logotype: #fffae2;
+  --font-logotype-size: 2rem;
+
+  --color-menu-bg: #000000;
+
+  --color-link-bg: #000000;
+  --color-link-hover: #333333;
+  --color-link-active: #222222;
+  --border-radius-links: 1px;
+
+  --font-h1-size: 1rem;
+  --font-sub1-size: 1rem;
+  --font-h2-size: 1rem;
+  --font-h3-size: 1rem;
+  --color-headline-bg: #011528;
+  --color-headline-text-page: #42413d;
+
+  --color-text: #000;
+  --color-text-inverted: #cdccc4;
+
+  --margin-head-bottom: 5px;
+
+  --border-radius: 5px;
+
+  --color-card-bg: #011528;
+  --color-cta-card-bg: #d5d2d0;
+
+  --color-news-bg: #dbdad4;
+  --color-news-bg-inverted: #dbdad4;
+  --color-cta-newscard-bg: #787473;
+  --color-cta-newscard-bg-inverted: #7b7d83;
+
+  --font-family-sans: "Rubik" ui-sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --logotype-size: 1rem;
+  --headline1-size: 2rem;
+  --headline2-size: 1rem;
+  --headline3-size: 1rem;
+  --bodytext-size: 1rem;
+  --cta-text-size: 1rem;
+  --followup-text-size: 1rem;
+  --form-submit-size: 1rem;
+
+  --color-info-bg: #676161;
+  --color-infobox-1-bg: #cfcec6;
+  --color-infobox-2-bg: #969995;
+
+  --color-accent: #ff0000;
+  --color-accent-light: #ff6666;
+  --color-bg-dark: #1a1a1a;
+  --color-text-light: #ffffff;
+}
