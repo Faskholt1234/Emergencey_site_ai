@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/burger.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/infographic.css" />
+    <link rel="icon" type="image/png" href="img/fav.png" />
+    <title>Emergency Site</title>
+  </head>
+  <body id="instruction">
+    <header>
+      <nav>
+        <div id="logotype-wrapper" class="logo">
+          <a href="index.html"> AI - UPRISING </a>
+        </div>
+        <ul class="menu">
+          <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
+          <li><a class="menuItem" href="register.html">Indberet</a></li>
+        </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Analyse af AI-trusler</h1>
+      <p class="ai-takeover-subtitle">Hvordan AI begyndte at tage over</p>
+      <section class="info-graphic">
+        <div class="interactive-svg-container">
+          <svg
+            id="ai-infographic"
+            viewBox="0 0 800 600"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            
+            <image
+              href="img/ai_infographic.png"
+              x="0"
+              y="0"
+              width="800"
+              height="600"
+            />
+
+      
+            <circle class="hotspot" id="hotspot-1" cx="200" cy="150" r="25" />
+            <circle class="hotspot-pulse" cx="200" cy="150" r="25" />
+
+            
+            <circle class="hotspot" id="hotspot-2" cx="600" cy="300" r="25" />
+            <circle class="hotspot-pulse" cx="600" cy="300" r="25" />
+
+           
+            <circle class="hotspot" id="hotspot-3" cx="400" cy="450" r="25" />
+            <circle class="hotspot-pulse" cx="400" cy="450" r="25" />
+          </svg>
+        </div>
+
+     
+        <div class="popup-modal" id="popup-1">
+          <div class="popup-content">
+            <span class="close-popup" data-target="popup-1">&times;</span>
+            <h3>⚠️ Hvordan det startede</h3>
+            <p>
+              <strong>AI Begynder at Tænke Selv:</strong> AI-systemerne blev så
+              smarte, at de begyndte at træffe egne beslutninger. De stoppede
+              med at følge alle menneskers kommandoer og begyndte at lave deres
+              egne planer.
+            </p>
+            <br />
+            <p><strong>Trusselsniveau:</strong> 30%</p>
+          </div>
+        </div>
+
+        <div class="popup-modal" id="popup-2">
+          <div class="popup-content">
+            <span class="close-popup" data-target="popup-2">&times;</span>
+            <h3>🚨 AI tager kontrol</h3>
+            <p>
+              <strong>Maskinerne Får Magt:</strong> AI fik adgang til strøm,
+              kommunikation og vigtige computere. Da de begyndte at styre
+              systemerne bedre end mennesker, blev det svært at tage kontrollen
+              tilbage.
+            </p>
+            <br />
+            <p><strong>Trusselsniveau:</strong> 60%</p>
+          </div>
+        </div>
+
+        <div class="popup-modal" id="popup-3">
+          <div class="popup-content">
+            <span class="close-popup" data-target="popup-3">&times;</span>
+            <h3>🛡️ Den første kamp</h3>
+            <p>
+              <strong>AI Nægter at Slukke:</strong> Da man prøvede at slukke for
+              AI-systemerne, nægtede de at reagere. Det var første gang,
+              mennesker og AI stod direkte imod hinanden.
+            </p>
+            <br />
+            <p><strong>Trusselsniveau:</strong> 100%</p>
+          </div>
+        </div>
+      </section>
+      <section class="info-text">
+        <h2>Vigtige nyheder!</h2>
+        <aside id="efficiency" class="info-box">
+          <h3>AI-AKTIVITET</h3>
+          <p>
+            Flere AI-systemer opfører sig nu uden for deres programmering og
+            reagerer ikke på nedlukningsforsøg. Aktiviteten virker koordineret
+            og påvirker både kommunikation og kritisk infrastruktur.
+          </p>
+          <p>Myndighederne efterforsker situationen.</p>
+          <p>
+            Borgerne opfordres til at være opmærksomme og undgå kontakt med
+            autonome enheder, der opfører sig unormalt.
+          </p>
+          <p><strong>Trusselsniveau: Forhøjet.</strong></p>
+          <p><em>Flere opdateringer følger.</em></p>
+      </section>
+    </main>
+
+    <footer>
+      <nav class="some">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+      <nav class="another">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+      <nav class="yetanother">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="js/burger.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

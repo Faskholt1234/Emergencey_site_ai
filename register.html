@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/burger.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+    <link rel="icon" type="image/png" href="img/fav.png" />
+    <title>Emergency Site</title>
+  </head>
+  <body id="register">
+    <header>
+      <nav>
+        <div id="logotype-wrapper" class="logo">
+          <a href="index.html"> AI - UPRISING </a>
+        </div>
+        <ul class="menu">
+          <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
+          <li><a class="menuItem" href="register.html">Indberet</a></li>
+        </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <h1>INDBERET</h1>
+      <section id="form-section">
+        <article id="form-info">
+          <h2>Indberet AI Hændelse</h2>
+          <p>
+            Udfyld formularen nedenfor for at indberette en AI-relateret
+            hændelse eller observation.
+          </p>
+        </article>
+        <form id="webform">
+          <div class="form-group">
+            <label for="name">Fulde navn *</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Telefonnummer</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+
+          <div class="form-group">
+            <label for="location">Lokation *</label>
+            <input type="text" id="location" name="location" required />
+          </div>
+
+          <div class="form-group">
+            <label for="incident-type">Type af hændelse *</label>
+            <select id="incident-type" name="incident-type" required>
+              <option value="">Vælg type</option>
+              <option value="ai-malfunction">AI Fejlfunktion</option>
+              <option value="suspicious-behavior">Mistænkelig AI Adfærd</option>
+              <option value="unauthorized-access">Uautoriseret Adgang</option>
+              <option value="data-breach">Databrud</option>
+              <option value="other">Andet</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="description">Beskrivelse af hændelse *</label>
+            <textarea
+              id="description"
+              name="description"
+              rows="5"
+              required
+              placeholder="Beskriv hvad der skete så detaljeret som muligt..."
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="severity">Alvorlighedsgrad *</label>
+            <select id="severity" name="severity" required>
+              <option value="">Vælg alvorlighedsgrad</option>
+              <option value="low">Lav</option>
+              <option value="medium">Middel</option>
+              <option value="high">Høj</option>
+              <option value="critical">Kritisk</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="incident-date">Dato for hændelse</label>
+            <input type="date" id="incident-date" name="incident-date" />
+          </div>
+
+          <div class="form-group">
+            <label for="incident-time">Tidspunkt (valgfrit)</label>
+            <input type="time" id="incident-time" name="incident-time" />
+          </div>
+
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="anonymous" name="anonymous" />
+            <label for="anonymous">Indberet anonymt</label>
+          </div>
+
+          <button type="submit" class="submit-btn">Indberet Hændelse</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <nav class="some">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+      <nav class="another">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+      <nav class="yetanother">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="js/burger.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
